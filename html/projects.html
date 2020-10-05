@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="A quick storybook of Liudas Panavas' academic pursuits.">
+    <meta name="author" content="Liudas Panavas">
+    <title>The Book of Liudas</title>
+    <link rel="icon" href="https://www.clipartmax.com/png/middle/113-1132391_free-rainbow-of-light-bulbs-clipart-light-bulb-clip-art.png">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="../styles/bookStyle.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light justify-content-between"
+    >
+      <a class="navbar-brand" href="../index.html">Home Sweet Home</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../html/projects.html" id="book">Story</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../html/resume.html" id="resume">Resume</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="bookTotal">
+      <button onclick="flipForward()" id="rightButton"></button>
+      <button onclick="flipBackward()" id="leftButton"></button>
+      <img src="../images/book.png" class="bookImage" alt="old vintage book" />
+      <div class="leftPage" id="page1">
+        <h1>The Book of Liudas</h1>
+        <img
+          class="pictureBook"
+          src="../images/happyTwitterPic.jpg"
+          alt="Liudas Panavas twitter picture"
+        />
+      </div>
+      <div class="rightPage" id="page2">
+        <h2 class="top">Conestoga High School</h2>
+        <img
+          class="pictureBook"
+          src="https://patch.com/img/cdn20/users/23022624/20190917/072413/conestoga-hs-1___17192210665.jpg"
+          alt="Conestoga High School"
+        />
+        <h3>Where the young academic began to grow</h3>
+      </div>
+      <div class="leftPage" id="page3">
+        <h3 class="top">University of South Carolina</h3>
+        <img
+          class="pictureBook"
+          src="https://www.wwaytv3.com/wp-content/uploads/2020/07/f6d1a0bd-0e78-4b38-9018-b4181c624fbc_1920x1080-e1594664939865.jpg"
+          alt="University of South Carolina"
+        />
+      </div>
+      <div class="rightPage" id="page4">
+        <img
+          class="pictureBook topImage"
+          src="https://sam.research.sc.edu/uscera/viewDocument.do?keyId=144633"
+          alt="Dr. Ramy Harik"
+        />
+        <h3 class="top">
+          Dr. Ramy Harik took him under his wing for the next four years.
+        </h3>
+      </div>
+      <div class="leftPage" id="page5">
+        <h3 class="top">Automated Fiber Placement (AFP)</h3>
+        <img
+          class="pictureBook"
+          src="https://d2n4wb9orp1vta.cloudfront.net/cms/brand/CW/2018-CW/mcnair.png;width=550;quality=60"
+          alt="automated fiber placement machine"
+        />
+        <h3>His research largely focused and revolved around AFP</h3>
+      </div>
+      <div class="rightPage" id="page6">
+        <img
+          class="pictureBook topImage"
+          src="https://www.researchgate.net/profile/Geyao_Yang/publication/224174769/figure/tbl1/AS:755040448954379@1557027079932/Construction-supplier-evaluation-criteria-in-SRM.png"
+          alt="supplier evaluations"
+        />
+        <h3 class="top">
+          After working for a year in half on dry fiber placement he looked
+          towards the business side and helped evaluate suppliers
+        </h3>
+      </div>
+      <div class="leftPage" id="page7">
+        <h3 class="top">
+          To explore the world and gather knowledge he worked in on a cellular
+          manufacturing project in France his sophomore year summer.
+        </h3>
+        <img
+          class="pictureBook"
+          src="https://media.glassdoor.com/l/892555/utc-office.jpg"
+          alt="university of technology of Compiegne"
+        />
+      </div>
+      <div class="rightPage" id="page8">
+        <h3 class="top">
+          After working in academia for so long, Liudas decided it was time to
+          take a look at what the professional life was like as an intern at
+          ANSYS.
+        </h3>
+        <img
+          class="pictureBook"
+          src="https://images.squarespace-cdn.com/content/v1/5a03c631ccc5c58606987d6f/1564756063288-QYQXR6ZEQ2HEAI97GIE1/ke17ZwdGBToddI8pDm48kP8N5KLxKqzW7xoy-OuA-ht7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYAswtmfg2fJ6dgr7UAPeBhZtCnBfXt7-uVnY3X5mdIxtfYk0dVZayboTAeqjnjomg/MicrosoftTeams-image+%283%29.png"
+          alt="ansys workplace environment"
+        />
+      </div>
+      <div class="leftPage" id="page9">
+        <img
+          class="pictureBook topImage"
+          src="https://online.jwu.edu/sites/default/files/field/image/BS%20Computer%20Science%20Degree%20A%20Closer%20Look.jpg"
+          alt="computer science code"
+        />
+        <h3>
+          Through his work and research he decided mechanical engineering wasn't
+          for him and that he wanted to transition to computer science.
+        </h3>
+      </div>
+      <div class="rightPage" id="page10">
+        <img
+          class="pictureBook topImage"
+          src="https://www.mach.kit.edu/img/content/231106-02_klein.jpg"
+          alt="karlrsuhe institute of technology"
+        />
+        <h3>
+          He spent another summer in europe working in Germany using Abaqus to
+          create 3D shapes.
+        </h3>
+      </div>
+      <div class="leftPage" id="page11">
+        <h3 class="top">
+          For his last few projects at USC he moved towards process planning and
+          data visualization.
+        </h3>
+        <img
+          class="pictureBook"
+          src="https://www.mikrosam.com/new/content/pics/afp/set-up-large.jpg"
+          alt="automated fiber placement process planning"
+        />
+      </div>
+      <div class="rightPage" id="page12">
+        <img
+          class="pictureBook topImage"
+          src="https://www.outsideonline.com/sites/default/files/styles/img_500x800/public/2020/02/04/mountain-lake-new-zealand-si_v.jpg?itok=CyPrxslh"
+          alt="New Zealand"
+        />
+        <h3>
+          After college, Liudas explored New Zealand in a van for 6 months. He
+          finally got all the outdoors his heart could want.
+        </h3>
+      </div>
+      <div class="leftPage" id="page13">
+        <img
+          class="pictureBook topImage"
+          src="https://huntnewsnu.com/wp-content/uploads/2018/11/NortheasternUniversity-1-of-1.jpg"
+          alt="Northeastern Univeristy"
+        />
+        <h3>
+          Now Liudas is working towards his PhD in computer science and
+          specializes in data visualization.
+        </h3>
+      </div>
+      <div class="rightPage" id="page14">
+        <img
+          class="pictureBook"
+          src="https://i2.wp.com/www.sojournintoexile.com/wp-content/uploads/2019/04/videoblocks-a-retro-old-fashioned-wizard-of-oz-style-the-end-movie-or-film-end-title-page-includes-three-distressed-film-options-plus-normal-clean-version_blyaml72x_thumbnail-full09.png?fit=1920%2C1080"
+          alt="the end image"
+        />
+      </div>
+      </section>
+    <script src="../scripts/bookScript.js"></script>
+  </body>
+</html>
