@@ -1,0 +1,138 @@
+html {
+  background: url("https://i.pinimg.com/originals/aa/43/50/aa4350ce5aed12fc4b0518f0dead4e1e.png")
+    no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bookTotal {
+  background-color: transparent;
+  width: 70vw;
+  height: 90vh;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  /* border: 10px solid rgb(223, 211, 211); */
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  display: block; /* remove extra space below image */
+}
+.leftPage {
+  /* border:5px solid green;  */
+  position: absolute;
+  width: 44%;
+  height: 90%;
+  top: 6%;
+  left: 5%;
+  overflow: hidden;
+}
+.rightPage {
+  /* border:5px solid red;  */
+  position: absolute;
+  width: 43%;
+  height: 90%;
+  top: 5%;
+  right: 5%;
+  overflow: hidden;
+}
+
+h1 {
+  font-style: italic;
+  font-family: "Apple Chancery";
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.top {
+  padding-top: 1em;
+}
+.topImage {
+  padding-top: 4em;
+}
+
+.pictureBook {
+  max-height: 60%;
+
+  object-fit: contain;
+}
+button {
+  background-color: transparent;
+  border: none !important;
+}
+button:hover {
+  box-shadow: 0 5px 15px yellow;
+}
+button:focus {
+  outline: none;
+}
+#leftButton {
+  position: absolute;
+  /* z-index: -1; */
+  height: 80%;
+  width: 5%;
+
+  top: 10%;
+  left: 3%;
+}
+#rightButton {
+  position: absolute;
+  /* z-index: -1; */
+  height: 80%;
+  width: 5%;
+
+  top: 10%;
+  right: 3%;
+}
+#page3 {
+  visibility: hidden;
+}
+#page4 {
+  visibility: hidden;
+}
+#page5 {
+  visibility: hidden;
+}
+#page6 {
+  visibility: hidden;
+}
+#page7 {
+  visibility: hidden;
+}
+#page8 {
+  visibility: hidden;
+}
+#page9 {
+  visibility: hidden;
+}
+#page10 {
+  visibility: hidden;
+}
+#page11 {
+  visibility: hidden;
+}
+#page12 {
+  visibility: hidden;
+}
+#page13 {
+  visibility: hidden;
+}
+#page14 {
+  visibility: hidden;
+}
+
+/* .bookImage {
+    display: block;
+
+  } */
