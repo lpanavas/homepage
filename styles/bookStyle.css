@@ -69,9 +69,9 @@ h3 {
 }
 button {
   background-color: transparent;
-  border: none !important;
+  border: none !important;  /* be careful when using !important, can lead to bugs if not careful */
 }
-button:hover {
+button:hover {  /* cool use of CSS, did not know you could use it this specifically */
   box-shadow: 0 5px 15px yellow;
 }
 button:focus {
@@ -95,6 +95,7 @@ button:focus {
   top: 10%;
   right: 3%;
 }
+/* may be able to combine these css blocks, I am curious if would still be able to change each pages visibility individually after */
 #page3 {
   visibility: hidden;
 }
