@@ -1,3 +1,5 @@
+/* I think this file may be an extra not deleted? */
+
 /* #navbar {
     overflow: hidden;
     background-color: #333;
@@ -51,6 +53,7 @@ div {
 p {
   display: inline;
 }
+/* may be able to combine these into one CSS block (contactInfo and vrpaper) */
 #contactInfo {
   display: block;
 }
